@@ -13,16 +13,16 @@ public class GuessGame {
         int guessP1 = 0;
         int guessP2 = 0;
         int guessP3 = 0;
-
         boolean p1IsRight = false;
         boolean p2IsRight = false;
         boolean p3IsRight = false;
-
         int targetNumber = (int) (Math.random() * 10);
+
         System.out.println("I'm thinking of a number between 0 and 9...");
 
         while(true) {
             System.out.println("Number to guess is " + targetNumber);
+
             p1.guess();
             p2.guess();
             p3.guess();
